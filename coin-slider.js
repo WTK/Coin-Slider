@@ -1,8 +1,9 @@
 /**
  * Coin Slider - Unique jQuery Image Slider
- * @version: 1.0 - (2010/04/04)
+ * @version: 1.1 - (2011/11/23)
  * @requires jQuery v1.2.2 or later
  * @author Ivan Lazarevic
+ * @author Marcin Wtorkowski
  * Examples and documentation at: http://workshop.rs/projects/coin-slider/
 
  * Licensed under MIT licence:
@@ -493,7 +494,7 @@
         navigation: true, // prev next and buttons
         links : true, // show images as links
         hoverPause: true, // pause on hover
-        stopAtLastSlide: false
+        stopAtLastSlide: false // stop automatic rotation of slides at last slide
     };
 
 })(jQuery);
