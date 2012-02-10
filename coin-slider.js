@@ -48,7 +48,7 @@
 				$(item).next().hide();
 			});			
 		
-if (images[el.id].length<1){ throw 'no images error'};
+            if (images[el.id].length<1) return;
 			// set panel
 			$(el).css({
 				'background-image':'url('+images[el.id][0]+')',
@@ -207,7 +207,8 @@ if (images[el.id].length<1){ throw 'no images error'};
 				} else {
 					$('#cs-title-'+el.id).css('opacity',0);
 				}				
-	        $( document ).trigger( 'transition' );
+	        $( document ).trigger( 'coin_slider_transition' );
+	        $( document ).trigger( 'coin_slider_after_transition' );
 			};
 			
 		
